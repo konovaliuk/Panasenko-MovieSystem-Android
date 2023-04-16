@@ -10,7 +10,7 @@ import com.panvova.moviesystem.utils.UserAlreadyExistsException
 class MovieAuthorizationGatewayImpl(private val api: MovieSystemAPI) : MovieAuthorizationGateway {
 
     override suspend fun login(username: String, password: String): User {
-        val users = api.getUsers().toDomain() // TODO mapping
+        val users = api.getUsers().toDomain()
         val user = users.find { it.username == username }
         return if (user != null && user.password == password) {
             user
