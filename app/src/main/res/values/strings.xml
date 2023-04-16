@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">MovieSystem</string>
+  <string name="username_short">Username is short</string>
+  <string name="password_short">Password is short</string>
+  <string name="email_short">Email is short</string>
+  <string name="welcome_message">Welcome to Movie System</string>
+  <string name="username_label">Username</string>
+  <string name="email_label">Email</string>
+  <string name="password_label">Password</string>
+  <string name="register_button">Register</string>
+  <string name="login_button">Already have an account? Log in</string>
+</resources>
